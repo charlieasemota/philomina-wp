@@ -9,6 +9,9 @@
 <body <?php body_class() ?>>
 	<header>
 		<!-- Search form -->
+		<div class="c_align">
+			<?php get_search_form(); ?>
+		</div>
 		<form method="get" name="searchform" action="<?php echo esc_url( home_url() ); ?>/" >
 			<div class="c_align">
 				<input type="text" name="s" placeholder="<?php _e( "Search...", "philomina" ) ?>"/>
@@ -29,7 +32,7 @@
 						</a></li>
 						<li><a href="#" class="open-search">
 							<i class="fa fa-search"></i>
-							<i class="fa fa-close" style="display:none"></i>
+							<i class="fa fa-close" style="display:none;"></i>
 						</a></li>
 					</ul>
 				</div>

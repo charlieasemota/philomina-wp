@@ -1,6 +1,3 @@
-		<!--
-			Footer Content
-		-->
 		<footer>
 			<div class="c_align">
 				<div class="copy">
@@ -16,17 +13,9 @@
 
 	</section>
 
-	<!--
-		Preloader
-	-->
-
 	<div class="preloader loadIn">
 		<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/preloader.GIF' ); ?>">
 	</div>
-
-	<!--
-		Menu
-	-->
 
 	<nav class="hidden-menu">
 		<div>
@@ -36,10 +25,7 @@
  			?>
 		</div>
 	</nav>
-
-	<!--
-		WordPress
-	-->
+	
 	<?php wp_footer() ?>
 
 </body>

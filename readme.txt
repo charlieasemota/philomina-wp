@@ -1,45 +1,47 @@
 === Philomina ===
-Author: Charlie Asemota
-Company: Wastronauts LTD
-Website: wastronauts.com
--------------
-Tested up to: WordPress 4.3.1
-License: GPLv2 or later
+Contributors: wastronauts
+Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
+Requires at least: 4.0
+Tested up to: 4.4.1
+Stable tag: 1.2.2
+License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-menu, featured-images, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 == Description ==
 Philomina is a clean and minimalistic theme perfect for fashion blogs or websites that make a huge use of quality photographs. Its accessible on all screen sizes, and it's optimised to support multiple translations. We added some nice load and unload effects throughout the site and added a lightbox feature for the images. We've limited customisation at this time but we welcome any suggestions and if reasonable we will include it in the next update.
-For more information about Philomina please go to http://wastronauts.com/free-wordpress-theme-philomina/.
+For more information about Philomina or for support please go to https://github.com/charlieasemota/philomina-wp.
 
-== Installation ==
+== Frequently Asked Questions ==
 
-1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
-2. Type in Philomina in the search form and press the 'Enter' key in your keyboard.
-3. Click on the 'Activate' button to use your new theme right away.
-4. Update all your posts by adding a featured image to each.
+= How can I customise the theme apearance? =
+At this point no custom options have been added to this theme.
 
-== Copyright ==
+== Changelog ==
 
-Philomina WordPress Theme, Copyright 2015 Wastronauts.com
-Philomina is Distributed under the terms of the GNU GPL
+= 1.2.2 =
+* Changed theme info URI
+* Made default strings translatable
+* Removed Comments from code
+* Changed Preview Image and linked to licence
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+= 1.2 =
+* URL sanitization
+* Added comment Form on pages
+* Removed PHP generated JS file
+* Un-Minified scripts
+* Removed white spaces at the end of php files
+* Added editor style
+* Applied WordPress PHP coding standards to code
+* Removed vertical scroll on titles
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+= 1.1 =
+* URL sanitization
+* Commented code removed
 
-Philomina Theme bundles the following third-party resources:
-
-HTML5 Shiv v3.7.0, Copyright 2014 Alexander Farkas
-Licenses: MIT/GPL2
-Source: https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.j
-
-Font Awesome icon font, Copyright 2013-2015 Automattic.com
-License: SIL OFL 1.1 - MIT
-Source: http://fortawesome.github.io/Font-Awesome/
+== Resources ==
+* HTML5 Shiv v3.7.0, Copyright 2014 Alexander Farkas
+* Font Awesome icon font, Copyright 2013-2015 Automattic.com
+* Honda F1 Model Photograph, Copyright 2008 Nguyễn Thành Lam, Licence: https://creativecommons.org/licenses/by/2.0/
+* Model Viviane@ The El Cajon Classic, Copyright 2009 PROChristopher Allison Photography, Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+* Lauren, model look book, Copyright 2013 Peter McConnochie, Licence: https://creativecommons.org/licenses/by-nd/2.0/
+* Models photo shoot Spring 2014, Copyriht 2014 David Yu, Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/

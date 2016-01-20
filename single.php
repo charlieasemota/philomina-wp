@@ -10,7 +10,7 @@
 		<div class="content">
 			<div class="section_head" style="background-image:url(<?php philomina_featuredBg( $post ); ?>);">
 				<div class="c_align">
-					<a href="#comments" class="go_to_comments"><i class="fa fa-commenting"></i> Read Comments</a>
+					<a href="#comments" class="go_to_comments"><i class="fa fa-commenting"></i> <?php _e('Read Comments', 'philomina'); ?></a>
 					<h1><?php the_title(); ?></h1>
 					<div class="post-info">
 						<?php echo get_avatar( get_the_author_meta( 'user_email' ), '100' ); ?>
