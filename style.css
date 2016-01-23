@@ -1,9 +1,9 @@
 /* Theme Name: Philomina
  * Theme URI: https://github.com/charlieasemota/philomina-wp
  * Author: Wastronauts Ltd
- * Author URI: https://wastronauts/
+ * Author URI: https://wastronauts.com/
  * Description: Philomina is a clean and minimalistic theme perfect for fashion blogs or websites that make a huge use of quality photographs. Its accessible on all screen sizes, and it's optimised to support multiple translations. We added some nice load and unload effects throughout the site and added a lightbox feature for the images. We've limited customisation at this time but we welcome any suggestions and if reasonable we will include it in the next update. For more information about Philomina or for support please go to https://github.com/charlieasemota/philomina-wp.
- * Version: 1.2.2
+ * Version: 1.2.3
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
@@ -282,6 +282,18 @@ header .logo h1 {
 @media screen and (max-width: 500px) {
   header .logo h1 {
     font-size: 2rem;
+  }
+}
+header .logo small {
+  color: #888;
+  font-size: 0.5em;
+  float: right;
+  display: block;
+  margin-left: 10px;
+}
+@media screen and (max-width: 960px) {
+  header .logo small {
+    display: none;
   }
 }
 header nav {
@@ -755,6 +767,10 @@ body > section.loadIn {
 #internal .content .post_container aside .widget {
   padding: 20px;
   border-bottom: 10px solid #eee;
+}
+#internal .content .post_container aside .c_align {
+  width: auto;
+  margin: 0;
 }
 
 /* Pagination links */

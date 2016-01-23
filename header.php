@@ -9,20 +9,17 @@
 <body <?php body_class() ?>>
 	<header>
 		<!-- Search form -->
-		<div class="c_align">
-			<?php get_search_form(); ?>
-		</div>
-		<form method="get" name="searchform" action="<?php echo esc_url( home_url() ); ?>/" >
-			<div class="c_align">
-				<input type="text" name="s" placeholder="<?php _e( "Search...", "philomina" ) ?>"/>
-				<input type="submit" name="search" value="<?php _e( "Go", "philomina" ) ?>"/>
-			</div>
-		</form>
+		<?php get_search_form(); ?>
 
 		<!-- Visible header -->
 		<div class="c_align">
 			<div class="logo">
-				<h1><a href="<?php echo esc_url( home_url() ) ?>"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1>
+					<a href="<?php echo esc_url( home_url() ) ?>"><?php bloginfo( 'name' ); ?></a>
+					<?php if(get_bloginfo( 'descripiton' )): ?>
+					<small><?php bloginfo( 'descripiton' ); ?></small>
+					<?php endif; ?>
+				</h1>
 			</div>
 			<nav>
 				<div>
