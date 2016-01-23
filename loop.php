@@ -18,7 +18,7 @@
 					elseif(get_the_author()) :
 						echo "<div class='info c_align'><p>" . __( 'Articles by: ', "philomina" ) . get_the_author() . "$isPaged</p></div>";
 					else :
-						echo "<div class='info c_align'><p>" . single_cat_title( 'Articles in: ', false ) . "$isPaged</p></div>";
+						echo "<div class='info c_align'><p>" . single_cat_title( __('Articles in: ', 'philomina'), false ) . "$isPaged</p></div>";
 					endif;
 				endif;
 

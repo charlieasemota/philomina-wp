@@ -18,7 +18,7 @@
 					<?php
 					the_content();
 
-					echo "<hr style='margin: 60px 0'>";
+					echo "<hr style='margin: 60px 0;'>";
 
 					// == Comments
 					comments_template();

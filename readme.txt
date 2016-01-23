@@ -18,6 +18,12 @@ At this point no custom options have been added to this theme.
 
 == Changelog ==
 
+= 1.2.3 =
+* Added language folder for translations
+* Added Tagline to header (On desktop)
+* Removed Hard Coded Search form in the header
+* Minor Fixes
+
 = 1.2.2 =
 * Changed theme info URI
 * Made default strings translatable
@@ -41,6 +47,7 @@ At this point no custom options have been added to this theme.
 == Resources ==
 * HTML5 Shiv v3.7.0, Copyright 2014 Alexander Farkas
 * Font Awesome icon font, Copyright 2013-2015 Automattic.com
+* Fancybox, Copyright 2012 Janis Skarnelis - janis@fancyapps.com
 * Honda F1 Model Photograph, Copyright 2008 Nguyễn Thành Lam, Licence: https://creativecommons.org/licenses/by/2.0/
 * Model Viviane@ The El Cajon Classic, Copyright 2009 PROChristopher Allison Photography, Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
 * Lauren, model look book, Copyright 2013 Peter McConnochie, Licence: https://creativecommons.org/licenses/by-nd/2.0/

@@ -40,9 +40,9 @@
 					    wp_link_pages( $defaults );
 
 					    // == post tags
-					    echo "<div class='tags'><strong>Tags:</strong> ";
+					    echo "<div class='tags'><strong>" . __('Tags', 'philomina') . ":</strong> ";
 					    the_tags( false, ", ", false );
-					    echo "<hr> <strong>Categories:</strong> ";
+					    echo "<hr> <strong>" . __('Categories', 'philomina') . "</strong> ";
 					    the_category( ', ' );
 					    echo "</div>";
 
