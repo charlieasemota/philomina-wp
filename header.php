@@ -16,8 +16,8 @@
 			<div class="logo">
 				<h1>
 					<a href="<?php echo esc_url( home_url() ) ?>"><?php bloginfo( 'name' ); ?></a>
-					<?php if(get_bloginfo( 'descripiton' )): ?>
-					<small><?php bloginfo( 'descripiton' ); ?></small>
+					<?php if(get_bloginfo( 'description' )): ?>
+					<small><?php bloginfo( 'description' ); ?></small>
 					<?php endif; ?>
 				</h1>
 			</div>
