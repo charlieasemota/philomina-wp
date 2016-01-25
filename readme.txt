@@ -1,6 +1,6 @@
 === Philomina ===
 Contributors: wastronauts
-Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
+Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
 Requires at least: 4.0
 Tested up to: 4.4.1
 Stable tag: 1.2.2
@@ -17,6 +17,9 @@ For more information about Philomina or for support please go to https://github.
 At this point no custom options have been added to this theme.
 
 == Changelog ==
+
+= 1.2.4 =
+* Minor Fixes
 
 = 1.2.3 =
 * Added language folder for translations
@@ -45,9 +48,9 @@ At this point no custom options have been added to this theme.
 * Commented code removed
 
 == Resources ==
-* HTML5 Shiv v3.7.0, Copyright 2014 Alexander Farkas
-* Font Awesome icon font, Copyright 2013-2015 Automattic.com
-* Fancybox, Copyright 2012 Janis Skarnelis - janis@fancyapps.com
+* HTML5 Shiv v3.7.0, Copyright 2014 Alexander Farkas, https://github.com/aFarkas/html5shiv
+* Font Awesome icon font, Copyright 2013-2015 Dave Gandy, https://fortawesome.github.io/Font-Awesome/
+* Fancybox, Copyright 2012 Janis Skarnelis, http://fancybox.net
 * Honda F1 Model Photograph, Copyright 2008 Nguyễn Thành Lam, Licence: https://creativecommons.org/licenses/by/2.0/
 * Model Viviane@ The El Cajon Classic, Copyright 2009 PROChristopher Allison Photography, Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
 * Lauren, model look book, Copyright 2013 Peter McConnochie, Licence: https://creativecommons.org/licenses/by-nd/2.0/
