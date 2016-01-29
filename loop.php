@@ -43,7 +43,7 @@
 		?>
 		<div class="info c_align no-content">
 			<p>
-				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/error.png' ); ?>" height="256" width="256" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/error.png' ); ?>" height="256" width="256" alt="Error - no post found">
 			</p>
 			<p><?php _e( "No Post Found in this page.", "philomina" ); ?></p>
 			<p><?php _e( "For more information please contact the website administrator.", "philomina" ); ?></p>

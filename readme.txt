@@ -18,6 +18,11 @@ At this point no custom options have been added to this theme.
 
 == Changelog ==
 
+= 1.2.5 =
+* Fixed Font Awesome not rendering in some browsers.
+* Reduced file size of theme preview image.
+* Minor Fixes
+
 = 1.2.4 =
 * Minor Fixes
 
