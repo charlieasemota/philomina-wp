@@ -3,7 +3,7 @@ Contributors: wastronauts
 Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
 Requires at least: 4.0
 Tested up to: 4.4.1
-Stable tag: 1.2.4
+Stable tag: 1.2.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,9 @@ For more information about Philomina or for support please go to https://github.
 At this point no custom options have been added to this theme.
 
 == Changelog ==
+
+= 1.2.6 =
+* Minor Fixes
 
 = 1.2.5 =
 * Fixed Font Awesome not rendering in some browsers.
