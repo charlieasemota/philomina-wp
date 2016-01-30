@@ -10,7 +10,7 @@ add_image_size('philomina_featured', 800, 800, true );
 
 add_action( 'after_setup_theme', 'philomina_theme_setup' );
 function philomina_theme_setup(){
-    load_theme_textdomain( 'philomina', get_template_directory() . '/assets/languages' );
+    load_theme_textdomain( 'philomina', get_template_directory() . '/languages' );
 }
 
 add_action( 'wp_enqueue_scripts', 'philomina_main_dependancies' );
