@@ -16,7 +16,7 @@ add_action( 'wp_enqueue_scripts', 'philomina_main_dependancies' );
 function philomina_main_dependancies() {
     wp_enqueue_style( 'philomina-main-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/fonts/font-awesome.css' );
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display:400italic|Lato:400,300,300italic,400italic,700,700italic' );
+	wp_enqueue_style( 'philomina-google-fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display:400italic|Lato:400,300,300italic,400italic,700,700italic' );
     wp_enqueue_style( 'fancybox-css', get_template_directory_uri() . '/assets/js/fancybox/jquery.fancybox.css' );
     wp_enqueue_script( 'html5shiv', get_template_directory_uri() . '/assets/js/html5shiv.js' );
     wp_enqueue_script( 'philomina-main-scripts', get_template_directory_uri() . '/assets/js/custom.js', array( 'jquery' ) );

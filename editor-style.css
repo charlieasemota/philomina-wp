@@ -1,27 +1,10 @@
-@font-face {
-  font-family: "novecento";
-  src: url("assets/fonts/novecentowide-bold-webfont.eot");
-  src: url("assets/fonts/novecentowide-bold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/novecentowide-bold-webfont.woff") format("woff"), url("assets/fonts/novecentowide-bold-webfont.ttf") format("truetype"), url("assets/fonts/novecentowide-bold-webfont.svg#novecento_wide_bookbold") format("svg");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "novecento";
-  src: url("assets/fonts/novecentowide-light-webfont.eot");
-  src: url("assets/fonts/novecentowide-light-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/novecentowide-light-webfont.woff") format("woff"), url("assets/fonts/novecentowide-light-webfont.ttf") format("truetype"), url("assets/fonts/novecentowide-light-webfont.svg#novecento_widelight") format("svg");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "novecento";
-  src: url("assets/fonts/novecentowide-normal-webfont.eot");
-  src: url("assets/fonts/novecentowide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/novecentowide-normal-webfont.woff") format("woff"), url("assets/fonts/novecentowide-normal-webfont.ttf") format("truetype"), url("assets/fonts/novecentowide-normal-webfont.svg#novecento_widenormal") format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?Lato:400,300,300italic,400italic,700,700italic);
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "novecento", sans-serif;
+  font-family: "lato", sans-serif;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-weight: 300
 }
 blockquote, q {
   border-left: 5px solid #ccc;
@@ -70,9 +53,6 @@ hr {
   line-height: 17px;
   margin: 0;
   padding: 0 4px 5px;
-}
-h1, h2, h3 {
-  font-weight: normal;
 }
 
 a {
