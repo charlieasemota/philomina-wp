@@ -3,14 +3,13 @@
  * Author: Wastronauts Ltd
  * Author URI: https://wastronauts.com/
  * Description: Philomina is a clean and minimalistic theme perfect for fashion blogs or websites that make a huge use of quality photographs. Its accessible on all screen sizes, and it's optimised to support multiple translations. We added some nice load and unload effects throughout the site and added a lightbox feature for the images. We've limited customisation at this time but we welcome any suggestions and if reasonable we will include it in the next update. For more information about Philomina or for support please go to https://github.com/charlieasemota/philomina-wp.
- * Version: 1.2.6
+ * Version: 1.2.7
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
+ * Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
  * Text Domain: philomina */
 
 // FONTS
-@import "_fonts.sass"
 @import "_typography.sass"
 
 // MIXINS
@@ -44,7 +43,7 @@ html, body
     font-size: 62.5%
 
 body
-    font-family: 'novecento', sans-serif
+    font-family: 'lato', sans-serif
     font-size: 1.4rem
     overflow: hidden
     background: #eee
@@ -53,7 +52,8 @@ body
     +transition($property: transform)
 
 h1, h2, h3
-    font-weight: normal
+    font-weight: 300
+    text-transform: uppercase
 
 a
     text-decoration: none
@@ -93,7 +93,8 @@ button, input[type="submit"]
     border: 1px solid #000
     margin-bottom: 10px
     background: #000
-    font-family: 'novecento', sans-serif
+    font-family: 'lato', sans-serif
+    text-transform: uppercase
     letter-spacing: 0.1em
     +transition
     cursor: pointer
@@ -117,6 +118,7 @@ header
     line-height: 80px
     top: 0
     background: #fff
+    text-transform: uppercase
 
     a
         color: #000
@@ -144,6 +146,7 @@ header
             float: right
             display: block
             margin-left: 10px
+            font-weight: 300
 
             @media screen and (max-width: 960px)
                 display: none
@@ -207,6 +210,7 @@ header
                 border: 1px solid #555
                 border-radius: 0 3px 3px 0
                 padding: 0
+                text-transform: uppercase
                 margin-bottom: 0
                 &:hover
                     color: #fff
@@ -288,7 +292,6 @@ body > section
             height: 100%
             top: 0
             z-index: 10
-            font-family:  'playfair', serif
             font-style:  italic
             color: #fff
             text-align: center
@@ -296,6 +299,8 @@ body > section
             //
             h1
                 font-size:  4rem
+                font-family:  'Playfair Display', serif
+                text-transform: none
                 margin: 0
                 padding: 0 10%
                 //
@@ -303,7 +308,6 @@ body > section
                     font-size:  3rem
 
             a.continue
-                font-family:  'novecento', sans-serif
                 font-style:  normal
                 color: #000
                 letter-spacing:  .1em
@@ -314,6 +318,7 @@ body > section
                 background-color:  #fcffa4
                 padding: 10px 20px
                 margin: 20px auto 0
+                border-radius: 40px
                 +transition($property: opacity, $duration: .2s, $delay: .3s)
                 +transition($property: background, $duration: .2s, $delay: 0s)
 
@@ -357,6 +362,7 @@ body > section
                 line-height: 60px
                 margin: 0 230px 0 0
                 font-family:  'playfair', serif
+                text-transform: none
                 font-style:  italic
                 //
                 @media screen and (max-width: 800px)
@@ -372,6 +378,8 @@ body > section
                     margin-right:  0
 
             a.go_to_comments
+                border-radius: 40px
+                text-transform: uppercase
                 padding:  10px 20px
                 display:  inline-block
                 position: absolute
@@ -393,6 +401,7 @@ body > section
                 margin-right:  400px
                 position: relative
                 min-height:  50px
+                text-transform: uppercase
                 //
                 @media screen and (max-width: 800px)
                     margin-right:  0
@@ -405,7 +414,7 @@ body > section
                 small
                     display: block
                     line-height: 20px
-                    letter-spacing:  .1em
+                    letter-spacing:  .15em
                     margin-left:  70px
                 a
                     color: #fcffa4
@@ -566,7 +575,8 @@ body > section
         padding: 5px 20px
         margin: 0 5px
         background-color:  #333
-        font-family: "novecento", sans-serif
+        font-family: "lato", sans-serif
+        text-transform: uppercase
         border: none
         letter-spacing:  .1em
         font-size:  1.2rem
@@ -644,6 +654,8 @@ nav.hidden-menu
             margin-bottom: 20px
             color: #fcffa4
             display: inline-block
+            font-weight: 300
+            text-transform: uppercase
             +transition
             //
             &:hover

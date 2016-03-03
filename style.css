@@ -3,44 +3,16 @@
  * Author: Wastronauts Ltd
  * Author URI: https://wastronauts.com/
  * Description: Philomina is a clean and minimalistic theme perfect for fashion blogs or websites that make a huge use of quality photographs. Its accessible on all screen sizes, and it's optimised to support multiple translations. We added some nice load and unload effects throughout the site and added a lightbox feature for the images. We've limited customisation at this time but we welcome any suggestions and if reasonable we will include it in the next update. For more information about Philomina or for support please go to https://github.com/charlieasemota/philomina-wp.
- * Version: 1.2.6
+ * Version: 1.2.7
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
+ * Tags: black, gray, white, yellow, two-columns, right-sidebar, responsive-layout, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
  * Text Domain: philomina */
-@font-face {
-  font-family: "novecento";
-  src: url("assets/fonts/novecentowide-bold-webfont.eot");
-  src: url("assets/fonts/novecentowide-bold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/novecentowide-bold-webfont.woff") format("woff"), url("assets/fonts/novecentowide-bold-webfont.ttf") format("truetype"), url("assets/fonts/novecentowide-bold-webfont.svg#novecento_wide_bookbold") format("svg");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "novecento";
-  src: url("assets/fonts/novecentowide-light-webfont.eot");
-  src: url("assets/fonts/novecentowide-light-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/novecentowide-light-webfont.woff") format("woff"), url("assets/fonts/novecentowide-light-webfont.ttf") format("truetype"), url("assets/fonts/novecentowide-light-webfont.svg#novecento_widelight") format("svg");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "novecento";
-  src: url("assets/fonts/novecentowide-normal-webfont.eot");
-  src: url("assets/fonts/novecentowide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/novecentowide-normal-webfont.woff") format("woff"), url("assets/fonts/novecentowide-normal-webfont.ttf") format("truetype"), url("assets/fonts/novecentowide-normal-webfont.svg#novecento_widenormal") format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "playfair";
-  src: url("assets/fonts/playfairdisplay-italic-webfont.eot");
-  src: url("assets/fonts/playfairdisplay-italic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/playfairdisplay-italic-webfont.woff2") format("woff2"), url("assets/fonts/playfairdisplay-italic-webfont.woff") format("woff"), url("assets/fonts/playfairdisplay-italic-webfont.ttf") format("truetype"), url("assets/fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic") format("svg");
-  font-weight: normal;
-  font-style: italic;
-}
 article, aside {
   /* Text meant only for screen readers. */
 }
 article h1, article h2, article h3, article h4, article h5, article h6, aside h1, aside h2, aside h3, aside h4, aside h5, aside h6 {
-  font-family: "novecento", sans-serif;
+  font-family: "lato", sans-serif;
   letter-spacing: 0.1em;
 }
 article blockquote, article q, aside blockquote, aside q {
@@ -172,7 +144,7 @@ html, body {
 }
 
 body {
-  font-family: "novecento", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 1.4rem;
   overflow: hidden;
   background: #eee;
@@ -184,7 +156,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-weight: normal;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 a {
@@ -233,7 +206,8 @@ button, input[type="submit"] {
   border: 1px solid #000;
   margin-bottom: 10px;
   background: #000;
-  font-family: "novecento", sans-serif;
+  font-family: "lato", sans-serif;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
   transition: all 0.3s linear 0s;
   -webkit-transition: all 0.3s linear 0s;
@@ -254,6 +228,7 @@ header {
   line-height: 80px;
   top: 0;
   background: #fff;
+  text-transform: uppercase;
   /* search form */
 }
 header a {
@@ -290,6 +265,7 @@ header .logo small {
   float: right;
   display: block;
   margin-left: 10px;
+  font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   header .logo small {
@@ -357,6 +333,7 @@ header form input[type="submit"] {
   border: 1px solid #555;
   border-radius: 0 3px 3px 0;
   padding: 0;
+  text-transform: uppercase;
   margin-bottom: 0;
 }
 header form input[type="submit"]:hover {
@@ -456,7 +433,6 @@ body > section.loadIn {
   height: 100%;
   top: 0;
   z-index: 10;
-  font-family: "playfair", serif;
   font-style: italic;
   color: #fff;
   text-align: center;
@@ -465,6 +441,8 @@ body > section.loadIn {
 }
 #main .block .inside_block h1 {
   font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  text-transform: none;
   margin: 0;
   padding: 0 10%;
 }
@@ -474,7 +452,6 @@ body > section.loadIn {
   }
 }
 #main .block .inside_block a.continue {
-  font-family: "novecento", sans-serif;
   font-style: normal;
   color: #000;
   letter-spacing: 0.1em;
@@ -485,6 +462,7 @@ body > section.loadIn {
   background-color: #fcffa4;
   padding: 10px 20px;
   margin: 20px auto 0;
+  border-radius: 40px;
   transition: opacity 0.2s linear 0.3s;
   -webkit-transition: opacity 0.2s linear 0.3s;
   transition: background 0.2s linear 0s;
@@ -529,6 +507,7 @@ body > section.loadIn {
   line-height: 60px;
   margin: 0 230px 0 0;
   font-family: "playfair", serif;
+  text-transform: none;
   font-style: italic;
 }
 @media screen and (max-width: 800px) {
@@ -556,6 +535,8 @@ body > section.loadIn {
   margin-right: 0;
 }
 #internal .content .section_head a.go_to_comments {
+  border-radius: 40px;
+  text-transform: uppercase;
   padding: 10px 20px;
   display: inline-block;
   position: absolute;
@@ -583,6 +564,7 @@ body > section.loadIn {
   margin-right: 400px;
   position: relative;
   min-height: 50px;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 800px) {
   #internal .content .section_head .post-info {
@@ -599,7 +581,7 @@ body > section.loadIn {
 #internal .content .section_head .post-info small {
   display: block;
   line-height: 20px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   margin-left: 70px;
 }
 #internal .content .section_head .post-info a {
@@ -783,7 +765,8 @@ body > section.loadIn {
   padding: 5px 20px;
   margin: 0 5px;
   background-color: #333;
-  font-family: "novecento", sans-serif;
+  font-family: "lato", sans-serif;
+  text-transform: uppercase;
   border: none;
   letter-spacing: 0.1em;
   font-size: 1.2rem;
@@ -868,6 +851,8 @@ nav.hidden-menu a.close-menu {
   margin-bottom: 20px;
   color: #fcffa4;
   display: inline-block;
+  font-weight: 300;
+  text-transform: uppercase;
   transition: all 0.3s linear 0s;
   -webkit-transition: all 0.3s linear 0s;
 }
