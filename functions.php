@@ -1,15 +1,14 @@
 <?php
-
 if ( ! isset( $content_width ) ) {
 	$content_width = 2000;
 }
-add_theme_support( 'automatic-feed-links' );
-add_theme_support( 'post-thumbnails' );
-add_theme_support( 'title-tag' );
-add_image_size('philomina_featured', 800, 800, true );
 
 add_action( 'after_setup_theme', 'philomina_theme_setup' );
 function philomina_theme_setup(){
+	add_theme_support( 'automatic-feed-links' );
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'title-tag' );
+	add_image_size('philomina_featured', 800, 800, true );
     load_theme_textdomain( 'philomina', get_template_directory() . '/languages' );
 }
 
@@ -17,6 +16,7 @@ add_action( 'wp_enqueue_scripts', 'philomina_main_dependancies' );
 function philomina_main_dependancies() {
     wp_enqueue_style( 'philomina-main-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/fonts/font-awesome.css' );
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display:400italic|Lato:400,300,300italic,400italic,700,700italic' );
     wp_enqueue_style( 'fancybox-css', get_template_directory_uri() . '/assets/js/fancybox/jquery.fancybox.css' );
     wp_enqueue_script( 'html5shiv', get_template_directory_uri() . '/assets/js/html5shiv.js' );
     wp_enqueue_script( 'philomina-main-scripts', get_template_directory_uri() . '/assets/js/custom.js', array( 'jquery' ) );
@@ -37,7 +37,7 @@ register_nav_menus( array(
 
 function philomina_creditLink() {
 	// Echo Credit Link
-	echo "<a href='" . esc_url( "http://wastronauts.com/" ) . "' title='UK Web Designer'>Website Designed by Wastronauts LTD</a>";
+	echo "<a href='" . esc_url( "http://wastronauts.com/" ) . "' title='WordPress Web Designer'>" . __('WordPress Theme designed by Wastronauts', 'philomina') . "</a>";
 }
 
 function philomina_featuredBg( $post ) {
