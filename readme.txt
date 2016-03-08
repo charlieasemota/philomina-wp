@@ -39,7 +39,10 @@ At this point no custom options have been added to this theme.
 
 == Changelog ==
 
-= 1.2.7 =
+= 1.3.1 =
+* Minor Fixes
+
+= 1.3 =
 * Moved theme support functions into theme setup function
 * Changed credits link
 * Updated Theme tags
