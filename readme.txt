@@ -40,6 +40,9 @@ At this point no custom options have been added to this theme.
 == Changelog ==
 
 = 1.3.1 =
+* Fixed Error
+
+= 1.3.1 =
 * Minor Fixes
 
 = 1.3 =
