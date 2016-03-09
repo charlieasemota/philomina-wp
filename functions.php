@@ -30,7 +30,7 @@ add_action( 'admin_init', 'philomina_editor_styles' );
 function philomina_editor_styles() {
 	$philomina_font_url = str_replace(',', '%2C', '//fonts.googleapis.com/css?Lato:400,300,300italic,400italic,700,700italic' );
     $philomina_stylesheet = get_template_directory_uri() . '/editor-style.css'
-    add_editor_style( array($philomina_font_url, $philomina_stylesheet);
+    add_editor_style( array($philomina_font_url, $philomina_stylesheet));
 }
 
 register_nav_menus( array(
