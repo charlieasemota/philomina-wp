@@ -72,6 +72,7 @@
 			return false;
 		})
 		// Fancybox
+		$('a[href$=".jpg"], a[href$=".png"], a[href$=".gif"], a[href$=".jpeg"]').attr('rel', 'philomina_gallery')
 		$('a[href$=".jpg"], a[href$=".png"], a[href$=".gif"], a[href$=".jpeg"]').fancybox();
 	}
 
