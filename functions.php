@@ -39,7 +39,7 @@ register_nav_menus( array(
 
 function philomina_creditLink() {
 	// Echo Credit Link
-	echo "<a href='" . esc_url( "http://wastronauts.com/" ) . "' title='WordPress Web Designer'>" . __('WordPress Theme designed by Wastronauts', 'philomina') . "</a>";
+	echo "<a href='" . esc_url( "http://charlieasemota.net/" ) . "' title='Web design in Liverpool'>" . __('WordPress Theme designed by Charlie Asemota', 'philomina') . "</a>";
 }
 
 function philomina_featuredBg( $post ) {
